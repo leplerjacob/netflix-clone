@@ -1,0 +1,36 @@
+.nav {
+    /* Fix to the top of screen */
+    position: fixed;
+    top: 0; 
+    padding-top: 20px;
+    height: 30px;
+    /* Get the nav background to show after scroll */
+    z-index: 1;
+
+    /* set the width for flex display and position to work together */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #111; */
+    /* Add transition to any changes */
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.nav__black {
+    background-color: #111;
+}
+
+.nav__logo {
+    position: fixed;
+    left: 20px;
+    width: 80px;
+    object-fit: contain;
+}
+
+.nav__avatar {
+    position: fixed;
+    right: 20px;
+    width: 30px;
+    object-fit: contain;
+}

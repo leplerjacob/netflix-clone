@@ -1,9 +1,9 @@
 import React from "react";
-import "./App.css";
+import "./styling/App.css";
 import requests from "./requests";
-import Banner from "./Banner";
-import Nav from "./Nav"
-import Row from "./Row";
+import Banner from "./layout/Banner";
+import Nav from "./layout/Nav"
+import Row from "./layout/Row";
 
 // 2:57 youtube react netflix clone
 
